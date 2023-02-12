@@ -1,0 +1,74 @@
+<!DOCTPE html>
+<html>
+<head>
+<title> Registration form </title>
+</head>
+<body background="yel.jpeg">
+<form action="firts.html">    				<!-- get used display name,  post used hide name-->
+<table border="0">
+<tr>
+<td>Student Name:</td>
+<td><input type="text" name="sname" required placeholder="student name" maxlength="10"/> </td>
+</tr>
+<tr>
+<td> Father Name: </td>
+<td><input type="text" name="fname" required placeholder="Father name" maxlenghth="10"/> </td>
+</tr>
+<tr>
+<td> Mother Name: </td>
+<td><input type="text" name="mname" required placeholder="Mother name" maxlenghth="10"/> </td>
+</tr>
+<tr> <td> Student Image</td>
+<td><input type="file"> </td>
+</tr>
+<tr><td> Date of birth</td>
+<td><input type="date" name="udob"/></td>
+</tr>
+<tr><td> Gender</td>
+<td><input type="radio" name="ugender"> Male<br>
+    <input type="radio"name="ugender">Female<br>
+    <input type="radio"name="ugender"> Transgender<br>
+</td>
+</tr>
+<tr><td> Email</td>
+<td><input type="email" name="uemail" required placeholder="abc@gmail.com" maxlength="20"></td>
+</tr>
+<tr><td> Username</td>
+<td><input type="text" name="Uname" required placeholder="Username" /></td>
+</tr>
+<tr><td> Password</td>
+<td><input type="Password" name="upass" required placeholder="Password" /></td>
+</tr>
+
+
+
+<tr><td> Address: </td>
+<td> <textarea rows="5"cols="20"> </textarea> </td>
+</tr>
+<tr><td>Degree:</td>
+<td><input type="text" name="mstudy" required placeholder="eg: B.E,BCA,Bsc" /></td>
+</tr>
+<tr> <td>Mode Of study </td>
+<td> <select name="select option">
+     <option value="Online">Online </option>
+     <option value="Offline" >Offline</option>
+     </select>
+</td>
+</tr>
+
+
+
+
+<tr><td></td>
+<td>
+<input type="submit" value="Submit"/>
+<input type="reset"value="Reset"/>
+</td>
+</tr>
+
+
+
+</table>
+</form>
+</body>
+</html>
