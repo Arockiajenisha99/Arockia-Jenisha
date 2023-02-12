@@ -1,0 +1,33 @@
+body{
+    background-color: #642D18;
+}
+    .c1{
+        color:black;
+        font-size: 10px;
+        line-height: 25px;
+        font-size: 25px;
+        background-color: silver;
+        padding: 25px 50px 75px 50px;
+        border-color: blue;
+        border-width: 15px;
+        border-style:solid ;
+        margin:25px;
+    }
+    .c2
+    {
+        color:black;
+        font-size: 10px;
+        font-weight:normal;
+        line-height:25px;
+        font-size: 25px;
+        background-color: silver;
+        padding: 25px;
+        border-color: blue;
+        border-width: 15px;
+        border-style:solid ;
+        margin: 25px;
+
+
+
+
+    }

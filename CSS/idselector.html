@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS ID Selector</title>
+        <style>
+            *{
+                text-transform: uppercase;
+            }
+        #cont1{
+            color: blueviolet;
+            font-size: large;
+            word-spacing:0ch;
+            text-indent: 2em;
+        }
+        
+        .note1{
+            color:violet;
+            text-decoration: underline;
+            Text align:right;
+        }
+        .note2{
+            font-style: italic;
+            text-transform: capitalize;
+            Text align:right;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 id="cont1">My h1 tag</h1> <br>                      <!--class selector can be applied only one-->
+        <h1> My another h1 tag</h1><br>
+        <p id="cont">paragraph</p>
+        <p class="note1 note2">class selector css </p>          <!--class selector can be applied more than one-->
+    </body>
+</html>
